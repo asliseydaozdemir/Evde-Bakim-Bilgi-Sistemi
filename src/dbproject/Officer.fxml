@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dbproject.OfficerController">
+   <children>
+      <Label layoutX="484.0" layoutY="85.0" text="HOŞ GELDİNİZ">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TableView fx:id="appTable" layoutX="94.0" layoutY="164.0" prefHeight="400.0" prefWidth="450.0" />
+      <Button fx:id="listDates" layoutX="252.0" layoutY="583.0" mnemonicParsing="false" onAction="#listDateAction" text="Randevuları Listele" />
+      <TableView fx:id="diseaseTable" layoutX="643.0" layoutY="160.0" prefHeight="409.0" prefWidth="471.0" />
+      <Button fx:id="diaButton" layoutX="600.0" layoutY="583.0" mnemonicParsing="false" onAction="#listDiaAction" text="Diyabet" />
+      <Button fx:id="alzButton" layoutX="701.0" layoutY="583.0" mnemonicParsing="false" onAction="#listAlzButton" text="Alzheimer" />
+      <Button fx:id="tensButton" layoutX="813.0" layoutY="583.0" mnemonicParsing="false" onAction="#listTensButton" text="Tansiyon" />
+      <Button fx:id="pyhButton" layoutX="919.0" layoutY="583.0" mnemonicParsing="false" onAction="#listPhyButton" text="Bedensel Engel" />
+      <Button fx:id="obButton" layoutX="1077.0" layoutY="583.0" mnemonicParsing="false" onAction="#listObButton" text="Obezite" />
+      <Button fx:id="deleteUser" layoutX="975.0" layoutY="66.0" mnemonicParsing="false" onAction="#deleteUserAction" text="Kullanıcıyı Sil" />
+   </children>
+</AnchorPane>
